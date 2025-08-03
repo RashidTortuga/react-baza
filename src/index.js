@@ -4,9 +4,5 @@ import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  React.createElement(
-    'button',
-    { disabled: false, onClick: () => console.log('click!') },
-    'hello'
-  )
+<App/>
 )
