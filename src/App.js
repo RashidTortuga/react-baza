@@ -12,8 +12,16 @@ function App() {
     { id: 3, title: 'JS3', body: 'Description' },
     { id: 4, title: 'JS4', body: 'Description' },
   ]
+  const postes = [
+    { id: 1, title: 'ляшко', body: 'Description' },
+    { id: 2, title: 'тимошенко', body: 'Description' },
+    { id: 3, title: 'яникевич', body: 'Description' },
+    { id: 4, title: 'якубович', body: 'Description' },
+  ]
   return (
     <div className="App">
+<PostList posts={posts} title={'Погромисты'}/>
+<PostList posts={postes} title={'Партия рыгона'}/>
     </div>
   )
 }
